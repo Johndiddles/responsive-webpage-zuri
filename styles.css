@@ -394,12 +394,13 @@ div.footer h6 {
         padding: 1rem 3rem;
     }
     div.hamburger {
+        margin-top: -7px;
         display: block;
         color: white;
         align-items: center;
         border: 1px solid white;
         width: fit-content;
-        padding: 20px 10px;
+        padding: 1rem 10px;
         height: fit-content;
         transform: rotate(90deg);
         cursor: pointer;
@@ -459,6 +460,9 @@ div.footer h6 {
 }
 
 @media only screen and (max-width: 680px){
+    div.hero-section {
+        padding: 5rem 2rem;
+    }
     div.hero-background {
         padding: 1.5rem;
     }
