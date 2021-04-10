@@ -426,7 +426,7 @@ div.footer h6 {
         transform: rotate(90deg);
         padding: 10px;
         border: 1px solid white;
-        border-radius: 3px;
+        border-radius: 5px;
         cursor: pointer;
         transition: 1s;
     }
