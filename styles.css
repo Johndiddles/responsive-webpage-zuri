@@ -130,7 +130,7 @@ div.background p {
 div.hero-background-pos {
     position: absolute;
     right: 0px;
-    left: 66%;
+    left: 69%;
     background: #fff;
     width: 140px;
     height: 140px;
@@ -348,6 +348,22 @@ div.footer h6 {
     padding-top: 6rem;
 }
 
+@media only screen and (max-width: 1200px){
+    div.hero-background-pos {
+        left: 70%;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    div.hero-background-pos {
+        left: 74%;
+    }
+}
+@media only screen and (max-width: 900px){
+    div.hero-background-pos {
+        left: 78%;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     ul.nav-links {
@@ -373,7 +389,7 @@ div.footer h6 {
         width: 100vw;
         max-height: 0px;
         left: 0px;
-        top: 60px;
+        top: 70px;
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -410,6 +426,7 @@ div.footer h6 {
         transform: rotate(90deg);
         padding: 10px;
         border: 1px solid white;
+        border-radius: 3px;
         cursor: pointer;
         transition: 1s;
     }
